@@ -14,6 +14,7 @@ module.exports = {
         "es6": true
     },
     rules: {
+        "quotes": "single",
         "no-console": "warn",
         "no-unused-vars": "warn",
         "no-shadow": "warn",

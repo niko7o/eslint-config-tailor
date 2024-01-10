@@ -7,6 +7,12 @@ module.exports = {
     root: true,
     plugins: [],
     extends: ['eslint:recommended'],
+    parserOptions: {
+        "ecmaVersion": "latest"
+    },
+    env: {
+        "es6": true
+    },
     rules: {
         "radix": "warn",
         "curly": "warn",

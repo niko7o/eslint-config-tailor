@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tailor",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "standarized eslint configuration for Tailor Hub ~ https://tailor-hub.com",
   "main": "index.js",
   "scripts": {

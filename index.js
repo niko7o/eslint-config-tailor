@@ -18,6 +18,8 @@ module.exports = {
         'plugin:@typescript-eslint/recommended-type-checked',
     ],
     rules: {
+        "radix": "warn",
+        "curly": "warn",
         "no-shadow": "warn",
         "require-await": "off",
         "@typescript-eslint/require-await": "error",

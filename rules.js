@@ -1,4 +1,4 @@
-export const TAILOR_ESLINT_RULES = {
+module.exports = {
     "quotes": ["warn", "single"],
     "no-console": "warn",
     "no-unused-vars": "warn",

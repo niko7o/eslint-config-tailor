@@ -3,7 +3,7 @@
  * 'off' | 'warn' | 'error'
  */
 
-const { TAILOR_ESLINT_RULES } = require("./rules");
+const TAILOR_ESLINT_RULES = require("./rules");
 
 module.exports = {
     root: true,

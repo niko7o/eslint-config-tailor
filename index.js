@@ -3,7 +3,7 @@
  * 'off' | 'warn' | 'error'
  */
 
-import { CUSTOM_ESLINT_RULES } from "./rules"
+const { TAILOR_ESLINT_RULES } = require("./rules");
 
 module.exports = {
     root: true,
@@ -15,5 +15,5 @@ module.exports = {
     env: {
         "es6": true
     },
-    rules: CUSTOM_ESLINT_RULES
+    rules: TAILOR_ESLINT_RULES
   };

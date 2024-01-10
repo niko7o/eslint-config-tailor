@@ -6,10 +6,7 @@
 module.exports = {
     root: true,
     plugins: [],
-    extends: [
-        'eslint:recommended',
-        'plugin:@typescript-eslint/recommended-type-checked',
-    ],
+    extends: ['eslint:recommended'],
     rules: {
         "radix": "warn",
         "curly": "warn",

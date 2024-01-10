@@ -5,13 +5,13 @@
 
 module.exports = {
     root: true,
-    parser: '@typescript-eslint/parser',
-    parserOptions: {
-        project: true,
-        tsconfigRootDir: __dirname,
-      },
+    // parser: '@typescript-eslint/parser',
+    // parserOptions: {
+    //     project: true,
+    //     tsconfigRootDir: __dirname,
+    // },
     plugins: [
-        '@typescript-eslint'
+        // '@typescript-eslint'
     ],
     extends: [
         'eslint:recommended',
@@ -22,7 +22,7 @@ module.exports = {
         "curly": "warn",
         "no-shadow": "warn",
         "require-await": "off",
-        "@typescript-eslint/require-await": "error",
-        "@typescript-eslint/no-unnecessary-condition": "error"
+        // "@typescript-eslint/require-await": "error",
+        // "@typescript-eslint/no-unnecessary-condition": "error"
     },
   };
